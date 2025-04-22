@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kasir Cafe</string>
+    <string-array name="menu_array">
+        <item>Nasi Goreng</item>
+        <item>Kopi</item>
+        <item>Teh</item>
+        <item>Sandwich</item>
+    </string-array>
+</resources>

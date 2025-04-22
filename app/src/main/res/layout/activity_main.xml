@@ -1,0 +1,83 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5DC"
+    tools:ignore="ExtraText">
+
+    <!-- Logo di atas -->
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="135dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/sela"
+        android:layout_gravity="center" />
+
+
+    <!-- Judul di bawah logo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Cafe Sedjuk"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:textColor="#80533D"
+        android:layout_gravity="center" />
+
+    <!-- Form Pengisian -->
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pembeli"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Pembelian"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNoMeja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Meja"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNoHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No HP"
+        android:padding="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Menu"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
